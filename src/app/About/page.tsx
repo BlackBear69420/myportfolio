@@ -5,10 +5,17 @@ import Heading from "@/components/Heading";
 import Image from "next/image";
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import { motion } from "framer-motion";
+import { LampContainer } from "@/components/ui/lamp";
 
 function About() {
   const component = useRef(null);
+  const words = `Hey folks, I'm Sumit Nayak, a React Native enthusiast who's just wrapped up a gig at DIPEAT. I'm all about bringing creativity and problem-solving to the table.
 
+  During my time at VARCONS Technology Pvt Ltd, I dove deep into web development, whipping up some snazzy websites. From cooking up home automation systems to coding Android bike rental apps, I'm always up for a challenge and aim to ace it with style.
+  
+  Now that my DIPEAT journey has come to an end, I'm on the lookout for the next adventure. Let's team up and cook something awesome together!`;
   useEffect(() => {
     let ctx = gsap.context(() => {
       gsap.fromTo(
@@ -37,24 +44,18 @@ function About() {
         <Heading size="lg" className="col-start-1">
           About Me
         </Heading>
-        <div className="prose prose-xl prose-slate prose-invert col-start-1">
-          <p >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
-            dignissimos quibusdam vel? Minus veritatis, debitis voluptatibus
-            tenetur et maxime porro eaque ipsum animi nobis voluptatem, quam
-            sunt iste, ullam ab!
-          </p>
+        <div className="prose prose-xl prose-slate prose-invert col-start-1 ml-10">
+        <TextGenerateEffect words={words} />
         </div>
 
-        {/* <Image
-          className="avatar row-start-1 max-w-sm md:col-start-2 md:row-end-3 overflow-hidden rounded-3xl border-2 border-slate-700"
+
+        <Image
+          className="avatar row-start-1 max-w-sm md:col-start-2 md:row-end-3 overflow-hidden rounded-3xl border-2 border-slate-700 mt-16"
           src="/Images/avatar.jpg"
           alt="avatar"
           width={400}
           height={400}
-        /> */}
-
-        {/* <Button /> */}
+        />
       </div>
 
 <div className="grid grid-cols-1 items-center md:grid-cols-2">
@@ -135,8 +136,8 @@ function About() {
         </div>
       </div>
       {/* <Image
-          className="avatar "
-          src="/Images/avatar.jpg"
+          className="avatar overflow-hidden rounded-3xl border-2 border-slate-700"
+          src="/Images/certificate.png"
           alt="avatar"
           width={400}
           height={400}

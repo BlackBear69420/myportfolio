@@ -5,9 +5,11 @@ import Heading from "@/components/Heading";
 import Image from "next/image";
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
+import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 function About() {
   const component = useRef(null);
+  const words = `Oxygen gets you high. In a catastrophic emergency, we're taking giant, panicked breaths. Suddenly you become euphoric, docile. You accept your fate. It's all right here. Emergency water landing, six hundred miles an hour. Blank faces, calm as Hindu cows`;
 
   useEffect(() => {
     let ctx = gsap.context(() => {
@@ -36,12 +38,7 @@ function About() {
           About Me
         </Heading>
         <div className="prose prose-xl prose-slate prose-invert col-start-1">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
-            dignissimos quibusdam vel? Minus veritatis, debitis voluptatibus
-            tenetur et maxime porro eaque ipsum animi nobis voluptatem, quam
-            sunt iste, ullam ab!
-          </p>
+        <TextGenerateEffect words={words} />
         </div>
 
         <Image
