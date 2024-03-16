@@ -3,7 +3,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 export default function Button() {
   const handleButtonClick = () => {
-    window.open('/resume.pdf', '_blank');
+    window.open('/Resume.pdf', '_blank');
   };
 
   return (
