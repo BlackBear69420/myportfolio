@@ -44,7 +44,7 @@ function About() {
         <Heading size="lg" className="col-start-1">
           About Me
         </Heading>
-        <div className="prose prose-xl prose-slate prose-invert col-start-1 ml-10">
+        <div className="prose prose-xl prose-slate prose-invert col-start-1">
         <TextGenerateEffect words={words} />
         </div>
 

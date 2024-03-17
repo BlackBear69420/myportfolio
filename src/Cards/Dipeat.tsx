@@ -13,7 +13,7 @@ export function Dipeat() {
             translateZ="50"
             className="text-xl font-bold text-neutral-600 dark:text-white"
           >
-            React Native App-DFPL
+          Partner App-DFPL
           </CardItem>
           <CardItem
             as="p"

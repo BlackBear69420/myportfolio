@@ -24,7 +24,7 @@ export function UserInfo() {
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
-              src="/Images/user.jg"
+              src="/Images/use1r.jpg"
               height="100"
               width="100"
               className="h-60 w-full object-cover group-hover/card:shadow-xl rounded-3xl  "
