@@ -1,4 +1,5 @@
 import { Dipeat } from '@/Cards/Dipeat'
+import { Password } from '@/Cards/Password'
 import { Restaurant } from '@/Cards/Restaurant'
 import { ThreeDCardDemo } from '@/Cards/ThreeDCardDemo'
 import { TvShow } from '@/Cards/TvShow'
@@ -15,6 +16,7 @@ function page() {
       <TvShow/>
       <Dipeat/>
       <UserInfo/>
+      <Password/>
     </div>
     </Bounded>
 

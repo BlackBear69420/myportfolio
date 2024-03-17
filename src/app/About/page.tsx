@@ -75,7 +75,7 @@ function About() {
             <span>Dipeat.com</span>
           </div>
           <div className="prose prose-lg prose-invert mt-4">
-          <span className="text-2xl text-slate-400">Description</span>
+          <span className="text-2xl text-slate-400">At Dipeat, specialized in React Native development, excelling in Redux for state management and integrating Google APIs. Mastered Swagger for API documentation and Postman for testing, enhancing mobile app development skills</span>
           </div>
         </div>
         <div className="ml-6 mt-8 max-w-prose md:ml-12 md:mt-16">
@@ -89,7 +89,8 @@ function About() {
             <span>Varcons pvt limited</span>
           </div>
           <div className="prose prose-lg prose-invert mt-4">
-          <span className="text-2xl text-slate-400">Description</span>
+          <span className="text-2xl text-slate-400">Developed a restaurant website using HTML, CSS, JavaScript, and Bootstrap, featuring a newsletter
+subscription and reservation system.</span>
           </div>
         </div>
       </div>

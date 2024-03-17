@@ -20,18 +20,18 @@ export function UserInfo() {
             translateZ="60"
             className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
           >
-            Hover over this card to unleash the power of CSS perspective
+            A CRUD app to maintain user information.
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
-              src="/Images/use1r.jpg"
-              height="100"
-              width="100"
+              src="/Images/info.png"
+              height="300"
+              width="300"
               className="h-60 w-full object-cover group-hover/card:shadow-xl rounded-3xl  "
               alt="thumbnail"
             />
           </CardItem>
-          <div className="flex justify-between items-center mt-20">
+          <div className="flex justify-between items-center mt-10">
             <CardItem
               translateZ={20}
               as={Link}
@@ -39,15 +39,14 @@ export function UserInfo() {
               target="__blank"
               className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
             >
-              Live Demo →
+              Git Hub →
             </CardItem>
-            {/* <CardItem
+            <CardItem
               translateZ={20}
-              as="button"
               className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
             >
-              Sign up
-            </CardItem> */}
+              React Native
+            </CardItem>
           </div>
         </CardBody>
       </CardContainer>

@@ -20,7 +20,7 @@ export function TvShow() {
             translateZ="60"
             className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
           >
-            Hover over this card to unleash the power of CSS perspective
+            A website to Book Tv shows and view details.
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
@@ -31,7 +31,7 @@ export function TvShow() {
               alt="thumbnail"
             />
           </CardItem>
-          <div className="flex justify-between items-center mt-20">
+          <div className="flex justify-between items-center mt-10">
             <CardItem
               translateZ={20}
               as={Link}
@@ -41,13 +41,12 @@ export function TvShow() {
             >
               Live Demo →
             </CardItem>
-            {/* <CardItem
+            <CardItem
               translateZ={20}
-              as="button"
               className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
             >
-              Sign up
-            </CardItem> */}
+              React Js
+            </CardItem>
           </div>
         </CardBody>
       </CardContainer>

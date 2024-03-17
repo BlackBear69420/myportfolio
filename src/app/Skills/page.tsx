@@ -66,7 +66,7 @@ function Page() {
           <div className="flex my-6 items-center justify-center">
             <Heading size="sm">Programming Languages</Heading>
           </div>
-          <div className="flex gap-4 flex-wrap justify-center items-center bg-slate-800 border border-gray-300 rounded-lg p-4  text-xl font-semibold tracking-tight text-slate-700">
+          <div className="flex gap-4 flex-wrap justify-center items-center bg-slate-800 border border-gray-300 rounded-lg p-4 py-8  text-xl font-semibold tracking-tight text-slate-700">
               {langs.map((item, index) => (
                 <div
                   key={index}
@@ -86,7 +86,7 @@ function Page() {
           <div className="flex my-6 items-center justify-center">
             <Heading size="sm">Additional Skills</Heading>
           </div>
-          <div className="flex gap-4 flex-wrap justify-center items-center bg-slate-800 border border-gray-300 rounded-lg p-4  text-xl font-semibold tracking-tight text-slate-700">
+          <div className="flex gap-4 flex-wrap justify-center items-center bg-slate-800 border border-gray-300 rounded-lg p-4 py-8 text-xl font-semibold tracking-tight text-slate-700">
               {Additional.map((item, index) => (
                 <div
                   key={index}
