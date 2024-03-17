@@ -61,7 +61,7 @@ function Page() {
           </div>
         ))}
       </div>
-      <div className="grid md:px-20 grid-cols-1 md:grid-cols-2 gap-8 justify-items-center md:mt-16">
+      <div className="grid md:px-20 grid-cols-1 md:grid-cols-2 gap-8 justify-items-center md:mt-16 mt-10">
         <div className="w-full">
           <div className="flex my-6 items-center justify-center">
             <Heading size="sm">Programming Languages</Heading>

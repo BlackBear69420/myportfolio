@@ -35,7 +35,7 @@ export function UserInfo() {
             <CardItem
               translateZ={20}
               as={Link}
-              href="https://play.google.com/store/apps/details?id=com.dipeat.partner"
+              href="https://github.com/BlackBear69420/react-native-crud-app-using-redux-firebase"
               target="__blank"
               className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
             >
