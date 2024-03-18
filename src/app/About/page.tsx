@@ -39,7 +39,7 @@ function About() {
     <Bounded>
       <div
         ref={component}
-        className="grid gap-x-8 gap-y-6 md:grid-cols-[2fr,1fr]"
+        className="grid gap-x-2 gap-y-6 md:grid-cols-[2fr,1fr]"
       >
         <Heading size="lg" className="col-start-1">
           About Me
@@ -53,8 +53,8 @@ function About() {
           className="avatar row-start-1 max-w-sm md:col-start-2 md:row-end-3 overflow-hidden rounded-3xl border-2 border-slate-700 mt-16"
           src="/Images/avatar.jpg"
           alt="avatar"
-          width={400}
-          height={400}
+          width={300}
+          height={300}
         />
       </div>
 
