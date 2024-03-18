@@ -37,26 +37,28 @@ function About() {
 
   return (
     <Bounded>
-      <div
-        ref={component}
-        className="grid gap-x-2 gap-y-6 md:grid-cols-[2fr,1fr]"
-      >
-        <Heading size="lg" className="col-start-1">
-          About Me
-        </Heading>
-        <div className="prose prose-xl prose-slate prose-invert col-start-1">
-        <TextGenerateEffect words={words} />
-        </div>
+ <div
+  ref={component}
+  className="grid gap-x-2 gap-y-6 md:grid-cols-[2fr,1fr]"
+>
+  <Heading size="lg" className="col-start-1">
+    About Me
+  </Heading>
+  <div className="prose prose-xl prose-slate prose-invert col-start-1">
+    <TextGenerateEffect words={words} />
+  </div>
 
+  <div className="avatar-container row-start-1 col-start-1 md:col-start-2 md:col-span-1 md:row-start-1 md:row-end-3 mt-16 flex justify-center items-center">
+    <Image
+      className="avatar max-w-sm overflow-hidden rounded-3xl border-2 border-slate-700"
+      src="/Images/avatar.jpg"
+      alt="avatar"
+      width={300}
+      height={300}
+    />
+  </div>
+</div>
 
-        <Image
-          className="avatar row-start-1 max-w-sm md:col-start-2 md:row-end-3 overflow-hidden rounded-3xl border-2 border-slate-700 mt-16"
-          src="/Images/avatar.jpg"
-          alt="avatar"
-          width={300}
-          height={300}
-        />
-      </div>
 
 <div className="grid grid-cols-1 items-center md:grid-cols-2">
 
