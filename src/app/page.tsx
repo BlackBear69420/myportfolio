@@ -1,22 +1,21 @@
-import { Metadata } from "next";
-import { SliceZone } from "@prismicio/react";
+import NavBar from "@/components/NavBar";
+import Hero from "@/components/Hero";
+import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
+import Education from "@/components/Education";
+import Footer from "@/components/Footer";
 
-import { createClient } from "@/prismicio";
-import { components } from "@/slices";
-
-export default async function Page() {
-  const client = createClient();
-  const page = await client.getSingle("homepage");
-
-  return <SliceZone slices={page.data.slices} components={components} />;
-}
-
-export async function generateMetadata(): Promise<Metadata> {
-  const client = createClient();
-  const page = await client.getSingle("homepage");
-
-  return {
-    title: page.data.meta_title,
-    description: page.data.meta_description,
-  };
+export default function Page() {
+  return (
+    <main className="mx-auto w-full max-w-[600px] space-y-4 pb-16">
+      <NavBar />
+      <Hero />
+      <Experience />
+      <Projects />
+      <Skills />
+      <Education />
+      <Footer />
+    </main>
+  );
 }

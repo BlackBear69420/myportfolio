@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(cd D:/personals/myportfolio && npm install 2>&1)",
+      "Bash(cd D:/personals/myportfolio && rm -rf .next && npx next build 2>&1)",
+      "Bash(cd D:/personals/myportfolio && npx tsc --noEmit 2>&1)",
+      "Bash(cd D:/personals/myportfolio && powershell -Command \"Remove-Item -Recurse -Force .next -ErrorAction SilentlyContinue\" && echo \"Cleared .next\" && npx next build 2>&1)",
+      "Bash(cd D:/personals/myportfolio && npx next build 2>&1)"
+    ]
+  }
+}
