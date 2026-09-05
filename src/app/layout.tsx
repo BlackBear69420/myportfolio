@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${urbanist.className} relative min-h-screen bg-[#1a1a28]`}>
+      <body className={`${urbanist.className} relative min-h-screen bg-[#0a0a0a]`}>
         {/* Grainy texture overlay on body bg */}
         <div
           className="pointer-events-none fixed inset-0 -z-10"

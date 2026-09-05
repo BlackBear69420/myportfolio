@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa6";
 import Button from "./Button";
@@ -7,20 +6,9 @@ import GrainOverlay from "./GrainOverlay";
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative overflow-hidden rounded-2xl bg-[#252535] p-8 text-center">
+    <section id="hero" className="relative overflow-hidden rounded-2xl bg-[#141414] p-8 text-center">
       <GrainOverlay />
-      <div className="relative mx-auto h-20 w-20">
-        <Image
-          src="/Images/avatar.jpg"
-          alt="Sumit Nayak"
-          width={80}
-          height={80}
-          className="h-20 w-20 rounded-full object-cover ring-2 ring-slate-700"
-        />
-      </div>
-
-      <p className="mt-3 text-sm text-slate-500">@sumit_nayak</p>
-      <h1 className="mt-1 text-2xl font-bold text-white">Sumit Nayak</h1>
+      <h1 className="text-2xl font-bold text-white">Sumit Nayak</h1>
 
       <div className="mt-3 flex items-center justify-center gap-4">
         <Link
@@ -40,7 +28,7 @@ export default function Hero() {
           <FaLinkedin className="text-xl" />
         </Link>
         <Link
-          href="mailto:smak3598@gmail.com"
+          href="mailto:sumitmnayak@gmail.com"
           className="text-slate-400 transition-colors duration-150 hover:text-white"
           aria-label="Email"
         >
@@ -48,9 +36,10 @@ export default function Hero() {
         </Link>
       </div>
 
-      <p className="mx-auto mt-5 max-w-sm text-sm leading-relaxed text-slate-400">
-        Hey, I&apos;m Sumit — a Software Engineer with 2+ years of professional experience
-        contributing to end-to-end software development in production environments.
+      <p className="mx-auto mt-5 max-w-sm text-sm leading-relaxed text-white">
+        Hey, I&apos;m Sumit - a Software Engineer with 3+ years of experience shipping
+        production mobile and web apps, from fintech trading platforms to cross-platform
+        products built with Flutter, React Native, and Python.
       </p>
 
       <div className="mt-6 flex justify-center">

@@ -18,14 +18,14 @@ const experiences = [
   {
     role: "Mobile Application Developer Intern",
     org: "Cwipedia",
-    period: "Aug 2023 – Sep 2023",
+    period: "May 2023 – Sep 2023",
     desc: "Built a cross-platform edtech app with React Native and Firebase — video streaming, live classes, in-app assessments, and learner progress tracking.",
   },
 ];
 
 export default function Experience() {
   return (
-    <div id="experience" className="relative overflow-hidden rounded-2xl bg-[#252535] p-6">
+    <div id="experience" className="relative overflow-hidden rounded-2xl bg-[#141414] p-6">
       <GrainOverlay />
       <div className="mb-4 flex items-center gap-2">
         <HiOutlineBuildingOffice2 className="text-xl text-slate-400" />
@@ -33,7 +33,7 @@ export default function Experience() {
       </div>
       <div className="space-y-4">
         {experiences.map((exp) => (
-          <div key={exp.org} className="relative rounded-xl bg-[#2e2e40] p-4">
+          <div key={exp.org} className="relative rounded-xl bg-[#1f1f1f] p-4">
             <div className="flex items-start justify-between gap-2">
               <p className="font-semibold text-white">{exp.role}</p>
               <span className="shrink-0 text-xs text-slate-500">{exp.period}</span>

@@ -19,7 +19,7 @@ const education = [
 
 export default function Education() {
   return (
-    <div id="education" className="relative overflow-hidden rounded-2xl bg-[#252535] p-6">
+    <div id="education" className="relative overflow-hidden rounded-2xl bg-[#141414] p-6">
       <GrainOverlay />
       <div className="mb-4 flex items-center gap-2">
         <HiOutlineAcademicCap className="text-xl text-slate-400" />
@@ -29,7 +29,7 @@ export default function Education() {
         {education.map((edu) => (
           <div
             key={edu.institution}
-            className="relative flex items-center justify-between rounded-xl bg-[#2e2e40] p-4"
+            className="relative flex items-center justify-between rounded-xl bg-[#1f1f1f] p-4"
           >
             <div>
               <p className="font-semibold text-white">{edu.institution}</p>

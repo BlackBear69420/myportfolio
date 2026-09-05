@@ -32,7 +32,7 @@ export default function NavBar() {
 
   return (
     <nav aria-label="Main navigation">
-      <div className="relative flex items-center justify-center gap-8 rounded-b-2xl bg-[#252535] px-8 py-4">
+      <div className="relative flex items-center justify-center gap-8 rounded-b-2xl bg-[#141414] px-8 py-4">
         {/* Grainy texture overlay — border-radius matches rounded-b-2xl so no overflow-hidden needed */}
         <div
           className="pointer-events-none absolute inset-0"
@@ -61,7 +61,7 @@ export default function NavBar() {
                          opacity-0 transition-all duration-200 ease-out
                          group-hover:translate-y-0 group-hover:opacity-100"
             >
-              <span className="whitespace-nowrap rounded-lg bg-[#2e2e40] px-2.5 py-1.5 text-xs font-medium text-white shadow-lg">
+              <span className="whitespace-nowrap rounded-lg bg-[#1f1f1f] px-2.5 py-1.5 text-xs font-medium text-white shadow-lg">
                 {label}
               </span>
             </div>

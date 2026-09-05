@@ -5,7 +5,7 @@ import GrainOverlay from "./GrainOverlay";
 
 export default function Footer() {
   return (
-    <footer id="contact" className="relative overflow-hidden rounded-2xl bg-[#252535] p-6 text-center">
+    <footer id="contact" className="relative overflow-hidden rounded-2xl bg-[#141414] p-6 text-center">
       <GrainOverlay />
       <p className="text-base font-bold text-white">Sumit Nayak</p>
       <p className="mt-1 text-xs text-slate-500">
@@ -22,7 +22,7 @@ export default function Footer() {
           <FaGithub className="text-2xl" />
         </Link>
         <Link
-          href="mailto:smak3598@gmail.com"
+          href="mailto:sumitmnayak@gmail.com"
           className="text-slate-400 transition-colors duration-150 hover:text-white"
           aria-label="Email"
         >
