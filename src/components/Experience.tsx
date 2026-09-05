@@ -16,7 +16,7 @@ const experiences = [
     desc: "Architected a full-featured React Native app with order management, real-time tracking, maps, and payment gateway. Also built a responsive Next.js marketing website.",
   },
   {
-    role: "Mobile Application Developer Intern",
+    role: "Frontend Developer Intern",
     org: "Cwipedia",
     period: "May 2023 – Sep 2023",
     desc: "Built a cross-platform edtech app with React Native and Firebase — video streaming, live classes, in-app assessments, and learner progress tracking.",
