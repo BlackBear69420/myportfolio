@@ -23,8 +23,9 @@ export const siteConfig = {
 };
 
 export function getSiteUrl() {
-  if (process.env.NEXT_PUBLIC_SITE_URL) {
-    return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
+  // Server-only — used in metadata, sitemap, robots, and JSON-LD (not client bundles)
+  if (process.env.SITE_URL) {
+    return process.env.SITE_URL.replace(/\/$/, "");
   }
   if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
     return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL.replace(/\/$/, "")}`;
