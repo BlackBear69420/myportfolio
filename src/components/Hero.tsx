@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section id="hero" className="relative overflow-hidden rounded-2xl bg-[#141414] p-8 text-center">
       <GrainOverlay />
-      <h1 className="text-2xl font-bold text-white">Sumit Nayak</h1>
+      <h1 className="text-2xl font-bold text-white">M Sumit Nayak</h1>
 
       <div className="mt-3 flex items-center justify-center gap-4">
         <Link
@@ -37,7 +37,7 @@ export default function Hero() {
       </div>
 
       <p className="mx-auto mt-5 max-w-sm text-sm leading-relaxed text-white">
-        Hey, I&apos;m Sumit - a Software Engineer with 3+ years of experience shipping
+        Hey, I&apos;m M Sumit — a Software Engineer with 3+ years of experience shipping
         production mobile and web apps, from fintech trading platforms to cross-platform
         products built with Flutter, React Native, and Python.
       </p>

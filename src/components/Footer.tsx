@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer id="contact" className="relative overflow-hidden rounded-2xl bg-[#141414] p-6 text-center">
       <GrainOverlay />
-      <p className="text-base font-bold text-white">Sumit Nayak</p>
+      <p className="text-base font-bold text-white">M Sumit Nayak</p>
       <p className="mt-1 text-xs text-slate-500">
         © {new Date().getFullYear()} All rights reserved
       </p>
